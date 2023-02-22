@@ -7,4 +7,6 @@ var r = Regex.new()
     console.log("as string: \[ " + r)
 var source = "Exec sp_addextendedproperty 'MS_Description', 'Odkaz na FirstId v tabulce dVyberSestava.', 'user', 'dbo', 'table', 'dVyberUctu', 'column', 'IfVyberSestava'"
 var m = r.exec(source)
-console.log("as match:", m ) 
+if(!m.groups)
+    throw 
+console.log("as match:", m.groups ) 

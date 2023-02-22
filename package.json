@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "regexpress": "^4.2.5"
+  },
+  "devDependencies": {
+    "jake": "^10.8.5"
   }
 }
