@@ -1,0 +1,10 @@
+
+set *NODE*       *runtime* version    
+     ****         *******              step 1- nvm install 18
+                                       step 2- https://www.michael1e.com/set-node-runtime-version-in-vscode/
+                                                  see .vscode/launch.json
+
+set *JAVASCRIPT* *compilers* options:             see jsconfig.json
+     **********   *********
+     
+footsprintmy    vscode nodejs settings confoguration   202306   myspaces

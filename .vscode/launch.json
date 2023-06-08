@@ -3,17 +3,19 @@
     // Umístěním ukazatele myši zobrazíte popisy existujících atributů.
     // Další informace najdete tady: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [
-        
-        
+    "configurations": 
+    [
         {
             "type": "node",
+            "runtimeVersion": "18", // If i need to run node 18,
+    
             "request": "launch",
             "name": "Spustit program",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/comments2.mjs"
+            
         }
     ]
 } 

@@ -1,7 +1,9 @@
+console.log("huhu",String.prototype.replaceAll)
+
 import { Regex } from 'regexpress';
 var regexCommentTable = Regex.new()
     .add(/Exec\s*sp_addextendedproperty\s*'MS_Description',\s*'(?<description>.+?)',\s*'.+?',\s*'.+?',\s*'table',\s*'(?<table>.+?)',\s*NULL/)
-    .add(''.replaceAll(" ", "\\s*"))
+    //.add(''.replaceAll(" ", "\\s*"))
     .flags("gm")
     .build();  
     console.log("as string 2 : \[ " + regexCommentTable)
@@ -11,3 +13,4 @@ var m = regexCommentTable.exec(source2)
 if(!m.groups)
     throw new Error()
 console.log("as match 2 :", m.groups ) 
+
