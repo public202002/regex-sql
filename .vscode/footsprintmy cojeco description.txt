@@ -10,8 +10,16 @@ set *JAVASCRIPT* *compilers* options:             see jsconfig.json
 snippets
                                                   see .vscode/mySnipets.code-snippets
 
+vscode
+     insiders
+
 project 
      folder            C:\Users\public.DELL\source\myspaces\github-com-public202002regex-sql
      commit message    C:\Users\public.DELL\source\myspaces\github-com-public202002regex-sql\regex-sql\.git\COMMIT_EDITMSG
+
+
+https://bobbyhadz.com/blog/vscode-export-settings-and-extensions
+
+Ctrl + Shift + P on Windows and Linux
 
 footsprintmy    vscode nodejs settings confoguration   202306   myspaces
