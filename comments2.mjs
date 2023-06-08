@@ -13,4 +13,5 @@ var m = regexCommentTable.exec(source2)
 if(!m.groups)
     throw new Error()
 console.log("as match 2 :", m.groups ) 
+log
 

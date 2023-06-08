@@ -7,4 +7,11 @@ set *NODE*       *runtime* version
 set *JAVASCRIPT* *compilers* options:             see jsconfig.json
      **********   *********
      
+snippets
+                                                  see .vscode/mySnipets.code-snippets
+
+project 
+     folder            C:\Users\public.DELL\source\myspaces\github-com-public202002regex-sql
+     commit message    C:\Users\public.DELL\source\myspaces\github-com-public202002regex-sql\regex-sql\.git\COMMIT_EDITMSG
+
 footsprintmy    vscode nodejs settings confoguration   202306   myspaces
